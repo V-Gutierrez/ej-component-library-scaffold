@@ -2,11 +2,8 @@
   "name": "ejota",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "rollup:build": "rollup -c",
+    "build": "tsc && rollup -c",
     "watch": "rollup -cw",
-    "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest",
