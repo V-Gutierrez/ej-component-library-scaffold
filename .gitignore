@@ -4,3 +4,5 @@ dist
 dist-ssr
 *.local
 testArea
+storybook-static
+build-storybook.log
