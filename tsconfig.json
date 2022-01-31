@@ -27,5 +27,5 @@
     "**/*.ts",
     "**/*.tsx",
     "setupTests.ts"
-  ]
+, "rollup.config.js"  ]
 }
