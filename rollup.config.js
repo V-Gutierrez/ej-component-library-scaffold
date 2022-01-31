@@ -13,6 +13,9 @@ export default [
     plugins: [
       typescript({
         typescript: require('typescript'),
+        tsconfigOverride: {
+          exclude: ['**/__tests__', '**/*.test.ts'],
+        },
       }),
       babel({
         exclude: '/node_modules/**',
